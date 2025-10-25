@@ -29,17 +29,20 @@ body {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 2rem;
-  align-items: center;
+  align-items: start;
   width: 100%;
   max-width: 42rem;
+  min-width: 300px;
 }
 
 .photo {
   justify-self: end;
+  max-width: 100%;
+  height: auto;
 }
 
 .text-container {
-  /* No additional styles needed */
+  padding-top: 5px;
 }
 
 h3 { 
@@ -64,4 +67,9 @@ a {
   font-size: large;
   margin: 5px 2px;
   color: #f7c987; 
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
