@@ -7,7 +7,6 @@
   font-display: swap;
 }
 
-
 * {
   margin: 0;
   padding: 0;
@@ -21,31 +20,41 @@ body {
   background: #F24A5C;
   color: white;
   min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: left;
-  padding: 3rem 1.5rem;
+  display: grid;
+  place-items: center;
+  padding: 3rem 3rem;
 }
 
 .container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  align-items: center;
   width: 100%;
   max-width: 42rem;
-  margin: 0 auto;
+}
+
+.photo {
+  justify-self: end;
+}
+
+.text-container {
+  /* No additional styles needed */
 }
 
 h3 { 
-    font-size: x-large;
-    margin-bottom: 10px;
+  font-size: x-large;
+  margin-bottom: 10px;
 }
 
 p {
-    font-size: large;
-    margin: 5px 2px;
-    color: #f7c987   ;
+  font-size: large;
+  margin: 5px 2px;
+  color: #f7c987;
 }
 
 a {
-     font-size: large;
-     margin: 5px 2px;
-     color: #f7c987 ; 
+  font-size: large;
+  margin: 5px 2px;
+  color: #f7c987; 
 }
