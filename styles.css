@@ -46,7 +46,7 @@ body {
 }
 
 h3 { 
-   font-weight: normal;
+  font-weight: normal;
   font-size: x-large;
   margin-bottom: 5px;
 }
@@ -59,13 +59,11 @@ h4 {
 
 p {
   font-size: large;
-  margin: 5px 2px;
+  margin: 5px 0px;
   color: #f7c987;
 }
 
 a {
-  font-size: large;
-  margin: 5px 2px;
   color: #f7c987; 
   text-decoration: none;
 }
